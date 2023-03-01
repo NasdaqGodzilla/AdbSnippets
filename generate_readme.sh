@@ -5,5 +5,5 @@
 
 rm -rf README.md
 
-cat README.base.md package.md activity.md surface.md > README.md
+cat README.base.md package.md activity.md surface.md misc.md > README.md
 
