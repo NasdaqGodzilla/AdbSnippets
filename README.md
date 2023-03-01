@@ -17,3 +17,8 @@ Useful Android ADB snippets
 | `dumpsys SurfaceFlinger \| grep refresh-rate` | Get display hardware refresh rate |
 | `dumpsys display \| grep -i fps` | Get display hardware refresh rate from DisplayManagerService |
 
+
+| Item | Purpose |
+| --- | --- |
+| while true; do input keyevent 26 ; sleep 0.4 ;done | Loop toggle screen power |
+
